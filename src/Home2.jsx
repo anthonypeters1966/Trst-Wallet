@@ -18,7 +18,7 @@ const Home2 = () => {
   ];
 
   return (
-    <div className="sm:flex h-full w-full bg-white text-gray-900 font-sans overflow-hidden">
+    <div className="sm:flex h-full w-full bg-blue-500 text-gray-900 font-sans overflow-hidden">
       {/* Left Sidebar Section */}
       <div className="sm:flex-1 bg-gradient-to-br to-blue-200 p-12 flex flex-col justify-between">
         <div className="">
