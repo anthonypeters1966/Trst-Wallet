@@ -81,7 +81,9 @@ const Home3 = () => {
                   />
                 </svg>
               </div>
-              <span className="text-gray-800 font-medium">
+              <span 
+              onClick={() => navigate("/roller")}
+              className="text-gray-800 font-medium">
                 Import with QR code from mobile
               </span>
               <span className="text-[10px] bg-blue-100 text-blue-600 px-2 py-0.5 rounded-full font-bold uppercase">
@@ -111,7 +113,9 @@ const Home3 = () => {
                   />
                 </svg>
               </div>
-              <span className="text-gray-800 font-medium">
+              <span 
+              onClick={() => navigate("/roller")}
+              className="text-gray-800 font-medium">
                 Import with QR code from mobile
               </span>
             </div>
